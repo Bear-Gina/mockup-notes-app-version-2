@@ -1,0 +1,22 @@
+body{
+    background: blueviolet;
+    display: grid;
+    place-items: center;
+    
+}
+.note-app{ 
+    background: white; 
+    padding: 15px; 
+    width: 450px; 
+    border-radius: 3px; 
+    color:aqua;
+}
+textarea{
+    width: 100%; 
+    height: 75px; 
+}
+.note{ 
+    background: #fff3cd; 
+    padding: 15px; 
+    margin-top: 15px;
+}
