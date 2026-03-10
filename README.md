@@ -1,2 +1,29 @@
 # mockup-notes-app-version-2
 This is the mock up app for the notes Idea
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Notes
+		</title>
+		<link rel="stylesheet" href="./mock app notes.css.css">
+	
+	</head>
+	<body>
+		<div class="note-app">
+        	<h1>Notes</h1>
+        	<form id="form">
+            	<textarea id="input" placeholder="Type here..."></textarea>
+            	<button type="submit">Save</button>
+				<div id ="image">
+					<input type="file" id="fileInput" accept="image/*" />
+    				<button onclick="uploadFiles()">Upload</button>
+					<img id="Image"src="https://placehold.co" alt="Placeholder image">
+				</div>
+				<div id="notes">
+				</div>
+        	</form>
+    	</div>
+		<script src="./mock app notes.js"></script>
+	</body>
+</html>
