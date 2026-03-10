@@ -7,7 +7,6 @@ This is the mock up app for the notes Idea
 			Notes
 		</title>
 		<link rel="stylesheet" href="./mock app notes.css.css">
-	
 	</head>
 	<body>
 		<div class="note-app">
