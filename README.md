@@ -1,6 +1,5 @@
 # mockup-notes-app-version-2
 This is the mock up app for the notes Idea
-<!DOCTYPE html>
 <html>
 	<head>
 		<title>
@@ -17,7 +16,7 @@ This is the mock up app for the notes Idea
 				<div id ="image">
 					<input type="file" id="fileInput" accept="image/*" />
     				<button onclick="uploadFiles()">Upload</button>
-					<img id="Image"src="https://placehold.co" alt="Placeholder image">
+					<img id="Image"src="https://placehold.co" alt="Placeholder image"/>
 				</div>
 				<div id="notes">
 				</div>
